@@ -1,0 +1,41 @@
+<app-content>
+  <form [formGroup]="form"(submit)="onSubmit()">
+      <br>
+      <div class="form-group row">
+    
+      </div>
+      <br>
+     
+      <div class="form-group row">
+          <div class="col-md-5">
+        <label for="" style="color:blue">ชื่อหนังสือ</label>
+        <input type="text" class="form-control"  formControlName="nameBook">
+      </div>
+    </div>
+
+      <br>
+      <div class="form-group row">
+          <div class="col-md-5">
+        <label for="" style="color:blue" >รายละเอียด</label>
+        <input type="text" class="form-control"  formControlName="detailBook">
+      </div>
+    </div>
+      
+      <br>
+      <div class="form-group row">
+          <div class="col-md-5">
+          <label for="" style="color:blue" >ราคา</label>
+          <input type="number" class="form-control" formControlName="priceBook">
+        </div>
+      </div>
+
+        <br>
+        
+          <br>
+          <div class="pull-right">
+           
+            <button type="submit" class="btn btn-primary">บันทึก</button>
+          
+        </div>
+    </form>
+  </app-content>

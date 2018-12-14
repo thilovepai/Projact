@@ -1,0 +1,1 @@
+﻿{"ContextClassName":"Book04Context","DefaultDacpacSchema":null,"IdReplace":false,"IncludeConnectionString":true,"OutputPath":"Models","ProjectRootNamespace":"Book","SelectedToBeGenerated":0,"Tables":["dbo.Table_Book","dbo.Table_Customer","dbo.Table_Detail","dbo.Table_Order"],"UseDatabaseNames":false,"UseFluentApiOnly":true,"UseHandleBars":false,"UseInflector":false}

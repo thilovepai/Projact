@@ -1,0 +1,13 @@
+D:\MVC2\Book\Book\bin\Debug\netcoreapp2.1\Book.deps.json
+D:\MVC2\Book\Book\bin\Debug\netcoreapp2.1\Book.runtimeconfig.json
+D:\MVC2\Book\Book\bin\Debug\netcoreapp2.1\Book.runtimeconfig.dev.json
+D:\MVC2\Book\Book\bin\Debug\netcoreapp2.1\Book.dll
+D:\MVC2\Book\Book\bin\Debug\netcoreapp2.1\Book.pdb
+D:\MVC2\Book\Book\obj\Debug\netcoreapp2.1\Book.csproj.CoreCompileInputs.cache
+D:\MVC2\Book\Book\obj\Debug\netcoreapp2.1\Book.RazorAssemblyInfo.cache
+D:\MVC2\Book\Book\obj\Debug\netcoreapp2.1\Book.RazorAssemblyInfo.cs
+D:\MVC2\Book\Book\obj\Debug\netcoreapp2.1\Book.AssemblyInfoInputs.cache
+D:\MVC2\Book\Book\obj\Debug\netcoreapp2.1\Book.AssemblyInfo.cs
+D:\MVC2\Book\Book\obj\Debug\netcoreapp2.1\Book.RazorTargetAssemblyInfo.cache
+D:\MVC2\Book\Book\obj\Debug\netcoreapp2.1\Book.dll
+D:\MVC2\Book\Book\obj\Debug\netcoreapp2.1\Book.pdb

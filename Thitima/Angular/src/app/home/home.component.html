@@ -1,0 +1,47 @@
+<app-content>
+  <div class="tm-main-content">
+      <section class="tm-margin-b-l">
+          <header>
+              <h2 style="color:cornflowerblue" class="tm-main-title">Welcome to our bookstore</h2>    
+          </header>
+          <h3 style="color:cornflowerblue"> ยินดีต้อนรับจ้าา</h3>
+          <div class="pull-right">
+  
+              <button type="button" class="btn btn-success"(click)="gotoCreateProduct()">เพิ่มข้อมูล</button>
+          </div>
+          <div class="tm-gallery">
+              <div class="row">
+                  <figure class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item" *ngFor="let item of item">
+                      <a href="preview.html">
+                          <div class="tm-gallery-item-overlay">
+                              <img src="assets/img/01.jpg" alt="Image" class="img-fluid tm-img-center">
+                          </div>
+                          <br>
+                          <br>
+                          <br>
+                          <p style="color:cornflowerblue" class="tm-figcaption">{{item.nameBook}}</p>
+                      </a>
+                      <td>
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button class="btn btn-info" [routerLink]="['/home/edit',item.idbook]">แก้ไข</button> 
+                <button type="button" (click)="onDeleteData(item.idbook)" class="btn btn-danger">ลบ</button>               
+              </div>
+        </td>
+                  </figure>
+                   
+              </div>   
+          </div>
+
+          <nav class="tm-gallery-nav">
+              <ul class="nav justify-content-center">
+                  <li class="nav-item"><a class="nav-link active" href="#">1</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">2</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">3</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">4</a></li>                    
+              </ul>
+          </nav>
+      </section>
+
+     
+  </div>
+</app-content>
